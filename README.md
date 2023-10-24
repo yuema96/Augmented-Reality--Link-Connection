@@ -45,6 +45,7 @@ Versions:
 How to run it:
 Click the multi-window folder, inside the folder, open Git Bash. 
 In the Git Bash terminal, type npm start. Below is the screenshot. 
+
 ![image](https://github.com/yuema96/Augmented-Reality--Link-Connection/assets/57729954/e1eb9fe3-97d2-44ff-b553-bebcdd6ae8fe)
 
 
