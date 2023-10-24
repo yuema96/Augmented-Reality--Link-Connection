@@ -18,6 +18,7 @@ File--Build Settings—device (Scroll down and select HoloLens), create a new fo
 Open the build folder, run the .sln file and will use the visual studio to configure the app to the HoloLens. 
 My project needs two pictures which are previously uploaded in the Vuforia database. One is a full-screen size laptop screenshot (screen1.png), and the other one is the full-screen size iPad screenshot picture(screen2.png). Need to have two devices displaying those two pictures. 
 Run the app in HoloLens2 and look towards to the two devices which are displaying the two pictures. The Bezier curve will connect these two devices together, and you can feel free to move either device, the Bezier curve will catch the movement, and keep updating to the newest position. Once the location is confirmed, we can change the monitor screens to display any other content, and the Bezier curve will still connect two devices together. 
+
 -------------------------------------------------------------------------------------------------------------------------------
 Monitor Side Application 
 Versions:
@@ -44,6 +45,8 @@ Versions:
 How to run it:
 Click the multi-window folder, inside the folder, open Git Bash. 
 In the Git Bash terminal, type npm start. Below is the screenshot. 
+![image](https://github.com/yuema96/Augmented-Reality--Link-Connection/assets/57729954/e1eb9fe3-97d2-44ff-b553-bebcdd6ae8fe)
+
 
 The multi windows app will start and will automatically create two windows. One is the main window and the other one is the child window. 
 You can move the two windows to any position or resize them, and in the terminal, the newest position and width, length information will be returned. 
